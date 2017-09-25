@@ -60,7 +60,7 @@ public class Sumo {
 		PrintWriter salida = new PrintWriter(new File(myPath+"sumo.out"));
 		
 		for(int i = 0; i < contrincantes.length; i++){
-			salida.print(contrincantes[i]+'\n');
+			salida.println(contrincantes[i]);
 		}
 		salida.close();
 	}
